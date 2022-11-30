@@ -12,5 +12,5 @@ searchInputEl.addEventListener("focus", () => {
 searchInputEl.addEventListener("blur", () => {
     searchEl.classList.remove("focused");
     searchInputEl.setAttribute("placeholder", "");
-
+    searchInputEl.value = "";
 })
