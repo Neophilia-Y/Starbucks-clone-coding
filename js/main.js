@@ -90,3 +90,15 @@ const promotionContainer = document.querySelector(".notice .swiper-wrapper");
 promotionToggle.addEventListener("click", () => {
     promotionContainer.classList.toggle("hide")
 })
+
+//Floting Animation
+const floatingAnimation = (selector) => {
+    gsap.to(selector, 1, {
+        y: 20,
+        repeat: -1,
+        yoyo: true,
+        ease: Power1.easeInOut,
+        delay: 1,
+    })
+}
+floatingAnimation(".floating")
