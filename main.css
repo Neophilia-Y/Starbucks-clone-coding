@@ -615,7 +615,100 @@ header .badges .badge {
   left: 150px;
 }
 
-.youtube .youtube__cover .floating3 {
-  bottom: -200px;
+/* SEASON PRODUCT */
+.season-product {
+  background-image: url("./images/season_product_bg.jpg");
+}
+
+.season-product .inner {
+  height: 400px;
+}
+
+.season-product .floating3 {
+  position: absolute;
+  top: -200px;
   right: 0;
+}
+
+.season-product .text-group {
+  position: absolute;
+  top: 110px;
+  right: 100px;
+}
+
+.season-product .text-group .title {
+  margin-bottom: 10px;
+}
+
+.season-product .text-group .description {
+  margin-bottom: 15px;
+}
+
+.season-prodcut .text-group .more {}
+
+.reserve-coffee {
+  background-image: url("./images/reserve_bg.jpg");
+}
+
+.reserve-coffee .inner {
+  height: 400px;
+}
+
+.reserve-coffee .inner .reserve-logo {
+  position: absolute;
+  top: 110px;
+
+}
+
+.reserve-coffee .inner .text-group {
+  position: absolute;
+  top: 124px;
+  left: 208px;
+}
+
+.reserve-coffee .product {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.pick-your-favorite {
+  background-image: url("./images/favorite_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.pick-your-favorite .inner {
+  padding: 110px 0;
+}
+
+.pick-your-favorite .text-group {
+  margin-left: 100px;
+  display: flex;
+  width: 340px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.pick-your-favorite .text-group .title {
+  margin-bottom: 40px;
+}
+
+.pick-your-favorite .text-group .description {
+  margin-bottom: 40px;
+}
+
+/* RESERVE STORE */
+.reserve-store {
+  background-image: url("./images/reserve_store_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.reserve-store .inner {
+  height: 600px;
 }
