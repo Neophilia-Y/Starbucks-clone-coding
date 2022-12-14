@@ -102,3 +102,29 @@ const floatingAnimation = (selector) => {
     })
 }
 floatingAnimation(".floating")
+
+const spyEls = document.querySelectorAll("section.scroll-spy");
+spyEls.forEach((el) => {
+    new ScrollMagic
+        .Scene({
+            triggerElement: el,
+            triggerHook: 0.8,
+        })
+        .setClassToggle(el, "show")
+        .addTo(new ScrollMagic.Controller());
+})
+
+// SWIPERJS
+new Swiper(".swiper", {
+    loop: true,
+    autoplay: true,
+    slidesPerView: 5,
+    spaceBetween: 30,
+    navigation: {
+        nextEl: '.swiper-next',
+        prevEl: '.swiper-prev',
+    },
+})
+
+const thisYear = document.querySelector(".this-year");
+thisYear.textContent = new Date().getFullYear();
