@@ -475,7 +475,7 @@ header .badges .badge {
   scroll-behavior: smooth;
 }
 
-.notice .swiper-wrapper .swiper-container-horizontal .swiper {
+.notice .swiper-wrapper .swiper-container-horizontal .horizontal-swiper {
   width: 819px;
   padding: 20px
 }
